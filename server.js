@@ -55,6 +55,6 @@ app.get('/api/animals', (req, res) => {
 });
 
 // listens for connections on the specified host and port
-app.listen(3001, () => {
-    console.log(`API server now on port 3001!`);
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
 });
