@@ -6,7 +6,7 @@ const app = express();
 
 
 // add route
-app.length('/api/animals', (req, res) => {
+app.get('/api/animals', (req, res) => {
     let results = animals;
     console.log(req.query);
     res.json(animals);
